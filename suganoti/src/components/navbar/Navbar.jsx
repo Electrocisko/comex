@@ -30,7 +30,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav w-50">
             <li className="nav-item">
               <a href="#" className="nav-link">
                 {t("NAVBAR_1")}
@@ -70,9 +70,9 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <div>
-          <button className="btn btn-outline-secondary mx-2" onClick={() => handleLanguage("es")}>ESP</button>
-          <button className="btn btn-outline-secondary mx-2" onClick={() => handleLanguage("en")}>ENG</button>
+          <div className="w-50">
+          <button className="btn btn-outline-secondary mx-2 float-end " onClick={() => handleLanguage("es")}>ESP</button>
+          <button className="btn btn-outline-secondary mx-2 float-end" onClick={() => handleLanguage("en")}>ENG</button>
         </div>
         </div>
 
