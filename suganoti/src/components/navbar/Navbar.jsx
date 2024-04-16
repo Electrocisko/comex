@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -8,15 +9,11 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg" >
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
-        <a href="#" className="navbar-brand">
-          <img
-            src="./images/isologox.png"
-            alt="Suganoti"
-            height="30"
-          />
-        </a>
+        <Link href="#" className="navbar-brand">
+          <img src="./images/isologox.png" alt="Suganoti" height="30" />
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -31,50 +28,75 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav w-50">
             <li className="nav-item ms-2">
-              <a href="#" className="nav-link">
+              <Link className="nav-link" to={"/"}>
                 {t("NAVBAR_1")}
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown ms-2">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to={"/"}
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 {t("NAVBAR_2")}
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                  {t("DROPDOWN_1")}
-                  </a>
+                  {i18n.language === "es" ? (
+                    <Link className="dropdown-item" to={"/importacion"}>
+                      {t("DROPDOWN_1")}
+                    </Link>
+                  ) : (
+                    <Link className="dropdown-item" to={"/customers"}>
+                      {t("DROPDOWN_1")}
+                    </Link>
+                  )}
                 </li>
+
                 <li>
-                  <a className="dropdown-item" href="#">
-                  {t("DROPDOWN_2")}
-                  </a>
+                  {i18n.language === "es" ? (
+                    <Link className="dropdown-item" to={"/exportacion"}>
+                      {t("DROPDOWN_2")}
+                    </Link>
+                  ) : (
+                    <Link className="dropdown-item" to={"/suppliers"}>
+                      {t("DROPDOWN_2")}
+                    </Link>
+                  )}
                 </li>
+
                 <li>
-                  <a className="dropdown-item" href="#">
-                  {t("DROPDOWN_3")}
-                  </a>
+                  {i18n.language === "es" ? (
+                    <Link className="dropdown-item" to={"/asesoramiento"}>
+                      {t("DROPDOWN_3")}
+                    </Link>
+                  ) : null}
                 </li>
               </ul>
             </li>
             <li className="nav-item ms-2">
-              <a href="#" className="nav-link">
+              <Link to={"/"} className="nav-link">
                 {t("NAVBAR_3")}
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="w-50">
-          <button className="btn btn-outline-secondary mx-2 float-end " onClick={() => handleLanguage("es")}>ESP</button>
-          <button className="btn btn-outline-secondary mx-2 float-end" onClick={() => handleLanguage("en")}>ENG</button>
+            <button
+              className="btn btn-outline-secondary mx-2 float-end "
+              onClick={() => handleLanguage("es")}
+            >
+              ESP
+            </button>
+            <button
+              className="btn btn-outline-secondary mx-2 float-end"
+              onClick={() => handleLanguage("en")}
+            >
+              ENG
+            </button>
+          </div>
         </div>
-        </div>
-
       </div>
     </nav>
   );

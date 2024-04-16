@@ -5,15 +5,14 @@ import Navbar from './components/navbar/Navbar';
 
 function App() {
 
-  const {t} = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <>
    <Navbar/>
     <h1 className='h1'>{t("TITLE")}</h1>
+    <h2>Idioma: {i18n.language === "es" ? "Español" : "English"}</h2>
     </>
-
-
   )
 }
 
