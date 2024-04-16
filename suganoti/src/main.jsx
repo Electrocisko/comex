@@ -7,6 +7,7 @@ import { initReactI18next } from "react-i18next";
 import es from "../i18n/spanish/es.json";
 import en from "../i18n/english/en.json";
 
+
 // seteo el idioma por default en español
 i18next.use(initReactI18next).init({
   lng: "es",

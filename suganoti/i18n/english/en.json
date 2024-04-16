@@ -1,3 +1,9 @@
 {
-    "TITLE": "Welcome to Suganoti."
+    "TITLE": "Welcome to Suganoti.",
+    "NAVBAR_1": "About Us",
+    "NAVBAR_2": "Services",
+    "NAVBAR_3":"Contact",
+    "DROPDOWN_1":"Import",
+     "DROPDOWN_2":"Export",
+     "DROPDOWN_3":"Advice"
 }
