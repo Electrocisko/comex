@@ -77,7 +77,7 @@ function Navbar() {
               </ul>
             </li>
             <li className="nav-item ms-2">
-              <Link to={"/"} className="nav-link">
+              <Link to={"/contact"} className="nav-link">
                 {t("NAVBAR_3")}
               </Link>
             </li>
