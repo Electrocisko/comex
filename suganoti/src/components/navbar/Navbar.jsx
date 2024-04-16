@@ -8,13 +8,12 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg" >
       <div className="container">
         <a href="#" className="navbar-brand">
           <img
-            src="./src/assets/images/iso.png"
+            src="./src/assets/images/isologox.png"
             alt="Suganoti"
-            width="30"
             height="30"
           />
         </a>
@@ -31,12 +30,12 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav w-50">
-            <li className="nav-item">
+            <li className="nav-item ms-2">
               <a href="#" className="nav-link">
                 {t("NAVBAR_1")}
               </a>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown ms-2">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -64,7 +63,7 @@ function Navbar() {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ms-2">
               <a href="#" className="nav-link">
                 {t("NAVBAR_3")}
               </a>
