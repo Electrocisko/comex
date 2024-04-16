@@ -3,7 +3,7 @@
     "NAVBAR_1": "About Us",
     "NAVBAR_2": "Services",
     "NAVBAR_3":"Contact",
-    "DROPDOWN_1":"Import",
-     "DROPDOWN_2":"Export",
-     "DROPDOWN_3":"Advice"
+    "DROPDOWN_1":"Customers",
+     "DROPDOWN_2":"Suppliers",
+     "DROPDOWN_3":""
 }
