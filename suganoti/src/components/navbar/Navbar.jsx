@@ -12,7 +12,7 @@ function Navbar() {
       <div className="container">
         <a href="#" className="navbar-brand">
           <img
-            src="./src/assets/images/isologox.png"
+            src="./images/isologox.png"
             alt="Suganoti"
             height="30"
           />
