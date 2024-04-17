@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
-        <Link href="#" className="navbar-brand">
+        <Link to={"/"} className="navbar-brand">
           <img src="./images/isologox.png" alt="Suganoti" height="30" />
         </Link>
         <button
@@ -28,7 +28,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav w-50">
             <li className="nav-item ms-2">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"/nosotros"}>
                 {t("NAVBAR_1")}
               </Link>
             </li>
