@@ -1,0 +1,70 @@
+.home-container{
+    display: flex;
+    margin: 1.5rem;
+  }
+  
+  
+  .home-text-container{
+    width: 70%;
+    color: #002063;
+  }
+  
+  .home-text-container h1{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  }
+  
+  .home-text-container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    }
+  
+  .home-img-container{
+    width: 30%;
+  }
+  
+  .home-img-container img {
+    height: 500px;
+    border-radius: 5px;
+  }
+
+  
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+
+    .home-container{
+        display: flex;
+      flex-direction: column;
+      }
+      
+      
+      .home-text-container{
+        color: #002063;
+        width: 100%;
+      }
+      
+      .home-text-container h1{
+      text-align: start;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      }
+      
+      .home-text-container h2{
+        text-align: start;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        }
+      
+   
+      
+      .home-img-container img {
+        height: 500px;
+        border-radius: 5px;
+      }
+
+
+
+}
