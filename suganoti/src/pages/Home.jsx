@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import AsesoraButton from "../components/asesoraButton/AsesoraButton";
 import "./home.css"
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
           <p>{t("HOME_P2")}</p>
           <p>{t("HOME_P3")}</p>
           <p>{t("HOME_P4")}</p>
+          <AsesoraButton/>
         </div>
         <div className="home-img-container">
           <img className="home-img" src="./images/pexels-frans-van-heerden-201846-1624695.jpg" alt="Barco container" /> 
