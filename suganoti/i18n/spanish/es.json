@@ -19,8 +19,13 @@
     "ABOUT_P3": "Ya sea que estés buscando expandir tu mercado a nivel global o simplificar tus operaciones de importación y exportación, estamos aquí para ayudarte en cada paso del camino.",
     "ABOUT_P4": "La visión de la empresa es ser líder en el desarrollo de relaciones sólidas con clientes y en la prestación de servicios de importación, exportación, logística, flete y despacho de aduanas a nivel global, brindando agilidad y confianza en todas las operaciones comerciales internacionales.",
     "ABOUT_P5": "La misión de la empresa es ofrecer un servicio de primera clase que garantice la agilidad y confianza en las operaciones comerciales internacionales de sus clientes, contribuyendo así al éxito de sus negocios en el mercado global a través de relaciones sólidas y duraderas.",
-    "ABOUT_P6": "Los valores de la empresa incluyen la excelencia en el servicio al cliente, la confiabilidad en todas las operaciones, la colaboración activa y el compromiso con el éxito de los negocios de sus clientes en el mercado global."
-
-
-
+    "ABOUT_P6": "Los valores de la empresa incluyen la excelencia en el servicio al cliente, la confiabilidad en todas las operaciones, la colaboración activa y el compromiso con el éxito de los negocios de sus clientes en el mercado global.",
+    "CONTACT_H1":"Contacto",
+    "CONTACT_FORM_NAME":"Nombre y Apellido",
+    "CONTACT_FORM_PHONE":"Teléfono",
+    "CONTACT_FORM_EMAIL": "Email",
+    "CONTACT_FORM_COMPANY":"Compañia",
+    "CONTACT_FORM_COUNTRY": "Pais",
+    "CONTACT_FORM_TEXTAREA": "Escriba aquí su consulta",
+    "CONTACT_FORM_SUBMIT":"Enviar Consulta"
 }

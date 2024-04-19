@@ -18,5 +18,13 @@
   "ABOUT_P3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "ABOUT_P4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "ABOUT_P5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "ABOUT_P6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  "ABOUT_P6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "CONTACT_H1":"Contact us",
+  "CONTACT_FORM_NAME":"Name",
+  "CONTACT_FORM_PHONE":"Phone",
+  "CONTACT_FORM_EMAIL": "Email",
+  "CONTACT_FORM_COMPANY":"Company",
+  "CONTACT_FORM_COUNTRY": "Country",
+  "CONTACT_FORM_TEXTAREA": "Write your comment or query here ",
+  "CONTACT_FORM_SUBMIT":"Submit query"
 }

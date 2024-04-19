@@ -11,3 +11,34 @@
 .contact-h1 {
     text-align: center;
 }   
+
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+
+    
+    .contact-text-container {
+     width: 100%;
+      
+    }
+    
+    .contact-h1 {
+        text-align: center;
+    }   
+
+    .contact-form-container {
+        order: -1;
+        margin-bottom: 15px;
+    }
+
+    .google-map{
+        width: auto;
+    }
+
+}

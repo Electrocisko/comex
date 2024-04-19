@@ -1,38 +1,43 @@
+import { useTranslation } from "react-i18next";
 import "./contact.css";
 
 function Contact() {
+
+  const {t} = useTranslation();
+
   return (
     <>
-      <h1 className="contact-h1">Contacto</h1>
+      <h1 className="contact-h1">{t("CONTACT_H1")}</h1>
       <div className="contact-container">
-        <div>
+        <div className="contact-form-container">
           <form>
             <input
               type="text"
-              placeholder="Nombre y apellido"
+              placeholder={t("CONTACT_FORM_NAME")}
               className="form-control mb-2"
             />
             <input
               type="text"
-              placeholder="Teléfono"
+              placeholder={t("CONTACT_FORM_PHONE")}
               className="form-control mb-2"
             />
             <input
               type="email"
-              placeholder="Email"
+              placeholder={t("CONTACT_FORM_EMAIL")}
               className="form-control mb-2"
             />
             <input
               type="text"
-              placeholder="Compañia"
+              placeholder={t("CONTACT_FORM_COMPANY")}
               className="form-control mb-2"
             />
             <input
               type="text"
-              placeholder="Pais"
+              placeholder={t("CONTACT_FORM_COUNTRY")}
               className="form-control mb-2"
             />
             <textarea
+              placeholder={t("CONTACT_FORM_TEXTAREA")}
               name="message"
               id=""
               cols="50"
@@ -40,7 +45,7 @@ function Contact() {
               className="form-control mb-2"
             ></textarea>
             <button type="submit" className="btn btn-primary w-100">
-              Enviar Consulta
+              {t("CONTACT_FORM_SUBMIT")}
             </button>
           </form>
         </div>
@@ -59,6 +64,7 @@ function Contact() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              className="google-map"
             ></iframe>
           </div>
         </div>
