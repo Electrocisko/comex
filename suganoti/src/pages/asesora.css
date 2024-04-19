@@ -1,0 +1,9 @@
+.asesora-container{
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.asesora-img-container img {
+    border-radius: 5px;
+}

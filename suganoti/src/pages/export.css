@@ -1,0 +1,25 @@
+.export-img {
+    height: 280px;
+    position: absolute;
+    right: 10%;
+    border-radius: 5px;
+}
+
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+    .export-img {
+        width: 350px;
+        height: auto;
+        position: static;
+        right: 10%;
+        border-radius: 5px;
+    }
+
+    .export-img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

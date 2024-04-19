@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import AsesoraButton from "../components/asesoraButton/AsesoraButton";
 import "./home.css"
+import { Link } from "react-router-dom";
 
 function Home() {
   const { t} = useTranslation();
@@ -15,7 +16,8 @@ function Home() {
           <p>{t("HOME_P3")}</p>
           <p>{t("HOME_P4")}</p>
           <div className="home-btn-advice-container">
-          < AsesoraButton/>
+            <Link to={"/contact"}>< AsesoraButton/></Link>
+          
           </div>
         </div>
         <div className="home-img-container">

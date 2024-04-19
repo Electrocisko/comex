@@ -1,0 +1,23 @@
+.ship-image {
+    height: 250px;
+    position: absolute;
+    right: 10%;
+    border-radius: 5px;
+}
+
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+    .ship-image {
+        width: 350px;
+        height: auto;
+        position: static;
+        border-radius: 5px;
+    }
+
+    .import-img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
