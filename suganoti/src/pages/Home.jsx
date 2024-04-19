@@ -14,7 +14,9 @@ function Home() {
           <p>{t("HOME_P2")}</p>
           <p>{t("HOME_P3")}</p>
           <p>{t("HOME_P4")}</p>
-          <AsesoraButton/>
+          <div className="home-btn-advice-container">
+          < AsesoraButton/>
+          </div>
         </div>
         <div className="home-img-container">
           <img className="home-img" src="./images/pexels-frans-van-heerden-201846-1624695.jpg" alt="Barco container" /> 

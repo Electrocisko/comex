@@ -1,0 +1,40 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 1rem;
+    color: #002063;;
+}
+
+
+
+.about-image-container img {
+    height: 480px;
+    border-radius: 5px;
+}
+
+
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #002063;;
+    }
+
+    .about-text-container{
+        order: -1;
+    }
+    
+    
+    
+    .about-image-container img {
+        order: 2;
+    }
+    
+
+}

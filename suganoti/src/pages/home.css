@@ -30,6 +30,13 @@
     border-radius: 5px;
   }
 
+  .home-btn-advice-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
   
 /* -----Mobil Design ----- */
 

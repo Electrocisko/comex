@@ -10,7 +10,7 @@ import Asesora from './pages/Asesora';
 import Customers from './pages/Customers';
 import Supliers from './pages/Supliers';
 import About from './pages/About';
-
+import Footer from './components/footer/Footer';
 
 
 
@@ -31,6 +31,7 @@ function App() {
     <Route path='/customers' element={<Customers/>}/>
     <Route path='/suppliers' element={<Supliers/>}/>
     </Routes>
+    <Footer/>
     </>
   )
 }

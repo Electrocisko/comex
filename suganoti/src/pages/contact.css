@@ -1,0 +1,13 @@
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-text-container {
+ width: 50%;
+  
+}
+
+.contact-h1 {
+    text-align: center;
+}   
