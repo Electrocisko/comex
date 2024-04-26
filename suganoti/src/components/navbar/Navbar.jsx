@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { Link} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   const handleLanguage = (la) => {
     i18n.changeLanguage(la);
+    navigate("/");
   };
 
   return (
