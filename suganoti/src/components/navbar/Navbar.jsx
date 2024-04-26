@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -49,7 +49,7 @@ function Navbar() {
                       {t("DROPDOWN_1")}
                     </Link>
                   ) : (
-                    <Link className="dropdown-item" to={"/customers"}>
+                    <Link className="dropdown-item" to={"/en/customers"}>
                       {t("DROPDOWN_1")}
                     </Link>
                   )}
@@ -61,7 +61,7 @@ function Navbar() {
                       {t("DROPDOWN_2")}
                     </Link>
                   ) : (
-                    <Link className="dropdown-item" to={"/suppliers"}>
+                    <Link className="dropdown-item" to={"/en/suppliers"}>
                       {t("DROPDOWN_2")}
                     </Link>
                   )}

@@ -1,6 +1,18 @@
 import "./customer.css";
+import { useTranslation } from "react-i18next";
 
 function Customers() {
+
+  const { i18n } = useTranslation();
+
+  if (i18n.language =="es") {
+    return (
+      <div className="container">
+   <h1 className="mt-5 text-center">Ruta disponible en Ingles</h1>
+      </div>
+    )
+  
+  } else {
   return (
    <div className="container">
       <h1>Customers</h1>
@@ -27,5 +39,5 @@ function Customers() {
       </div>
   );
 }
-
+}
 export default Customers;

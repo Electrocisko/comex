@@ -28,8 +28,8 @@ function App() {
     <Route path='/exportacion' element={<Export/>}/>
     <Route path='/importacion' element={<Import/>}/>
     <Route path='/asesoramiento' element={<Asesora/>}/>
-    <Route path='/customers' element={<Customers/>}/>
-    <Route path='/suppliers' element={<Supliers/>}/>
+    <Route path='/en/customers' element={<Customers/>}/>
+    <Route path='/en/suppliers' element={<Supliers/>}/>
     </Routes>
     <Footer/>
     </>
