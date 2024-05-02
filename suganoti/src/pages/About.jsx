@@ -14,9 +14,7 @@ function About() {
         <p>{t("ABOUT_P1")}</p>
         <p>{t("ABOUT_P2")}</p>
         <p>{t("ABOUT_P3")}</p>
-        <p>{t("ABOUT_P4")}</p>
-        <p>{t("ABOUT_P5")}</p>
-        <p>{t("ABOUT_P6")}</p>
+ 
       </div>
     </div>
   );

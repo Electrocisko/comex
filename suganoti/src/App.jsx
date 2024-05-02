@@ -7,8 +7,6 @@ import Contact from "./pages/Contact";
 import Import from './pages/Import';
 import Export from './pages/Export';
 import Asesora from './pages/Asesora';
-import Customers from './pages/Customers';
-import Supliers from './pages/Supliers';
 import About from './pages/About';
 import Footer from './components/footer/Footer';
 
@@ -27,9 +25,7 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/exportacion' element={<Export/>}/>
     <Route path='/importacion' element={<Import/>}/>
-    <Route path='/asesoramiento' element={<Asesora/>}/>
-    <Route path='/en/customers' element={<Customers/>}/>
-    <Route path='/en/suppliers' element={<Supliers/>}/>
+    <Route path='/servicios' element={<Asesora/>}/>
     </Routes>
     <Footer/>
     </>

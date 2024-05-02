@@ -7,7 +7,7 @@ function Navbar() {
 
   const handleLanguage = (la) => {
     i18n.changeLanguage(la);
-    navigate("/");
+   // navigate("/");
   };
 
   return (
@@ -87,7 +87,7 @@ function Navbar() {
                 {t("NAVBAR_3")}
               </Link>
             </li>            <li className="nav-item ms-2">
-              <Link to={"/asesoramiento"} className="nav-link">
+              <Link to={"/servicios"} className="nav-link">
                 {t("NAVBAR_4")}
               </Link>
             </li>
