@@ -14,14 +14,14 @@ function Home() {
           <p>{t("HOME_P1")}</p>
           <p>{t("HOME_P2")}</p>
           <p>{t("HOME_P3")}</p>
-          <p>{t("HOME_P4")}</p>
+          <p className="text-center">{t("HOME_P4")}</p>
           <div className="home-btn-advice-container">
             <Link to={"/contact"}>< AsesoraButton/></Link>
           
           </div>
         </div>
         <div className="home-img-container">
-          <img className="home-img" src="./images/pexels-frans-van-heerden-201846-1624695.jpg" alt="Barco container" /> 
+          <img className="home-img" src="./images/pintura.jpg" alt="Ilustracion de barco container " /> 
         </div>
       </div>
     );

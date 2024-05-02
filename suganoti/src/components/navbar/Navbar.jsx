@@ -28,13 +28,13 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav w-50">
+          <ul className="navbar-nav w-100 ">
             <li className="nav-item ms-2">
               <Link className="nav-link" to={"/nosotros"}>
                 {t("NAVBAR_1")}
               </Link>
             </li>
-            <li className="nav-item dropdown ms-2">
+            {/* <li className="nav-item dropdown ms-2">
               <Link
                 className="nav-link dropdown-toggle"
                 to={"/"}
@@ -77,10 +77,23 @@ function Navbar() {
                   ) : null}
                 </li>
               </ul>
+            </li> */}
+                        <li className="nav-item ms-2">
+              <Link to={"/importacion"} className="nav-link">
+                {t("NAVBAR_2")}
+              </Link>
+            </li>            <li className="nav-item ms-2">
+              <Link to={"/exportacion"} className="nav-link">
+                {t("NAVBAR_3")}
+              </Link>
+            </li>            <li className="nav-item ms-2">
+              <Link to={"/asesoramiento"} className="nav-link">
+                {t("NAVBAR_4")}
+              </Link>
             </li>
             <li className="nav-item ms-2">
               <Link to={"/contact"} className="nav-link">
-                {t("NAVBAR_3")}
+                {t("NAVBAR_5")}
               </Link>
             </li>
           </ul>

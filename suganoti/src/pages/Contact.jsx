@@ -52,7 +52,7 @@ function Contact() {
         <div className="contact-text-container">
           <div>
             <p><img src="./images/mail-icon.svg" alt="Icono de mail" />     info@suganoti.com.ar</p>
-            <p> <img src="./images/call-icon.svg" alt="Icono de telefono" /> +54 9 11 6734-3375</p>
+            <p> <img src="./images/call-icon.svg" alt="Icono de telefono" /> +54 9 11 5411-5298 </p>
             <p> <img src="./images/location-icon.svg" alt="" /> Calle xxxx Buenos Aires Argentina </p>
           </div>
           <div>

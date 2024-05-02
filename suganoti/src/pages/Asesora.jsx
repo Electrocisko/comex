@@ -25,18 +25,16 @@ function Asesora() {
    
 
         <div className="asesora-text-container">
-          <h1 className="mb-3">Asesoramiento</h1>
+          <h1 className="mb-3">Servicios internacionales</h1>
           <ul>
             <li>
-              Asesoramiento constante de la normativa de Comercio Exterior y sus
-              modificaciones.
+            Representación comercial.
             </li>
             <li>
-              Asesoramiento en todo lo relacionado con la operativa y normativa
-              de depósitos fiscales.
+            Desarrollo de clientes y proveedores.
             </li>
-            <li>Clasificación Arancelaria.</li>
-            <li>Cambio en posiciones arancelarias.</li>
+            <li>Almacenamiento y gestión de stocks.</li>
+            <li>Seguimiento completo del negocio.</li>
           </ul>
         </div>
       </div>
