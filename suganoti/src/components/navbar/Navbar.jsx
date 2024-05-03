@@ -3,6 +3,7 @@ import { Link, useNavigate} from "react-router-dom";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
 
   const handleLanguage = (la) => {
@@ -34,50 +35,7 @@ function Navbar() {
                 {t("NAVBAR_1")}
               </Link>
             </li>
-            {/* <li className="nav-item dropdown ms-2">
-              <Link
-                className="nav-link dropdown-toggle"
-                to={"/"}
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                {t("NAVBAR_2")}
-              </Link>
-              <ul className="dropdown-menu">
-                <li>
-                  {i18n.language === "es" ? (
-                    <Link className="dropdown-item" to={"/importacion"}>
-                      {t("DROPDOWN_1")}
-                    </Link>
-                  ) : (
-                    <Link className="dropdown-item" to={"/en/customers"}>
-                      {t("DROPDOWN_1")}
-                    </Link>
-                  )}
-                </li>
 
-                <li>
-                  {i18n.language === "es" ? (
-                    <Link className="dropdown-item" to={"/exportacion"}>
-                      {t("DROPDOWN_2")}
-                    </Link>
-                  ) : (
-                    <Link className="dropdown-item" to={"/en/suppliers"}>
-                      {t("DROPDOWN_2")}
-                    </Link>
-                  )}
-                </li>
-
-                <li>
-                  {i18n.language === "es" ? (
-                    <Link className="dropdown-item" to={"/asesoramiento"}>
-                      {t("DROPDOWN_3")}
-                    </Link>
-                  ) : null}
-                </li>
-              </ul>
-            </li> */}
                         <li className="nav-item ms-2">
               <Link to={"/importacion"} className="nav-link">
                 {t("NAVBAR_2")}

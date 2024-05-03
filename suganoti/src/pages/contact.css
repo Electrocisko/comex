@@ -8,6 +8,11 @@
   
 }
 
+.contact-text-container a {
+    color: inherit;
+   text-decoration: none;
+}
+
 .contact-h1 {
     text-align: center;
 }   

@@ -51,9 +51,16 @@ function Contact() {
         </div>
         <div className="contact-text-container">
           <div>
-            <p><img src="./images/mail-icon.svg" alt="Icono de mail" />     info@suganoti.com.ar</p>
-            <p> <img src="./images/call-icon.svg" alt="Icono de telefono" /> +54 9 11 5411-5298 </p>
+                 
+            <a href="mailto:info@suganoti.com.ar" className="d-block"><img src="./images/mail-icon.svg" alt="Icono de mail" className="me-2 mb-2"/>info@suganoti.com.ar</a>
+            
+            <a href="tel:+54 9 11 5411-5298" className="d-block"> <img src="./images/call-icon.svg" alt="Icono de telefono" className="me-2 mb-2" /> +54 9 11 5411-5298</a>
             <p> <img src="./images/location-icon.svg" alt="" /> Calle xxxx Buenos Aires Argentina </p>
+         
+            
+        <a href="https://api.whatsapp.com/send?phone=05491154115298&text=Hola, Necesito Info. Gracias!">
+          <img src="./images/whatsapp.png" alt="Icono de whatsapp" style={{  width:'25px' }} className="me-2 mb-2" />WhatsApp
+        </a>
           </div>
           <div>
             {" "}
