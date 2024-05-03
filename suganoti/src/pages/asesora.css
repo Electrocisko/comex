@@ -7,3 +7,19 @@
 .asesora-img-container img {
     border-radius: 5px;
 }
+
+/* -----Mobil Design ----- */
+
+@media (max-width: 991px) {
+
+    .asesora-container{
+        display: flex;
+      flex-direction: column;
+    }
+    
+    .asesora-img-container img {
+        border-radius: 5px;
+        width: 360px;
+        height: auto;
+    }
+}
