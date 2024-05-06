@@ -1,9 +1,15 @@
-.export-img {
-   width: 700px;
-    position: absolute;
-    right: 10%;
-    border-radius: 5px;
+
+.export-container{
+    display: flex;
 }
+
+.export-img {
+   width: 600px;
+    border-radius: 5px;
+
+}
+
+
 
 /* -----Mobil Design ----- */
 
@@ -20,6 +26,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .export-container{
+        display: flex;
+        flex-direction: column;
     }
 
 }

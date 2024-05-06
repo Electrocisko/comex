@@ -8,7 +8,11 @@ function Export() {
   return (
     <div className="container">
         <h1>{t("EXPORT_H1")}</h1>
-    <div className="export-img-container">
+
+
+
+        <div className="export-container">
+        <div className="export-img-container">
     <img src="./images/infografia.png" alt="Infografia" className="export-img" />
     </div>
    
@@ -17,6 +21,8 @@ function Export() {
           <li>{t("EXPORT_LI_2")}</li>
           <li>{t("EXPORT_LI_3")}</li>
         </ul>
+        </div>
+
     </div>
   
   )
