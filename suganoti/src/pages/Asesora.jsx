@@ -2,7 +2,7 @@ import "./asesora.css";
 import { useTranslation } from "react-i18next";
 
 function Asesora() {
-  const { t, i18n} = useTranslation();
+  const { t} = useTranslation();
 
   return (
     <div className="container asesora-container">
@@ -20,7 +20,7 @@ function Asesora() {
           <li>{t("SERVICES_LI_1")}</li>
           <li>{t("SERVICES_LI_2")}</li>
           <li> {t("SERVICES_LI_3")}</li>
-          {i18n.language ==="es" ? <li> {t("SERVICES_LI_4")}</li> : null}
+          <li> {t("SERVICES_LI_4")}</li>
         </ul>
       </div>
     </div>
