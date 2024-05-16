@@ -10,12 +10,13 @@ function Contact() {
       <h1 className="contact-h1">{t("CONTACT_H1")}</h1>
       <div className="contact-container">
         <div className="contact-form-container">
-          <form action="https://formsubmit.co/info@suganoti.com.ar" method="POST">
+          <form action="https://submit-form.com/wA7Ol4U0l" method="POST">
             <input
               type="text"
               placeholder={t("CONTACT_FORM_NAME")}
               className="form-control mb-2"
               name="name"
+              required={true}
             />
             <input
               type="text"
@@ -28,6 +29,7 @@ function Contact() {
               placeholder={t("CONTACT_FORM_EMAIL")}
               className="form-control mb-2"
               name="email"
+              required={true}
             />
             <input
               type="text"
